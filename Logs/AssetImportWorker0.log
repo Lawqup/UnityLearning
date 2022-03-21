@@ -15,11 +15,11 @@ C:/Users/Lawrence/Unity Projects/Learning
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54986
+49787
 Successfully changed project path to: C:/Users/Lawrence/Unity Projects/Learning
 C:/Users/Lawrence/Unity Projects/Learning
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 72.14 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -35,47 +35,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001356 seconds.
+Registered in 0.002361 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.00 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 53.10 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.524 seconds
+- Completed reload, in  0.632 seconds
 Domain Reload Profiling:
-	ReloadAssembly (524ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (406ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (159ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005873 seconds.
+Registered in 0.013383 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
@@ -112,48 +112,48 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.03 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 44.74 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  1.897 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1146ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1899ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1706ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (387ms)
+			SetupTypeCache (1032ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (1ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2335 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 121.4 MB.
 System memory in use after: 121.6 MB.
 
 Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2809.
-Total: 2.525600 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.108400 ms MarkObjects: 2.209300 ms  DeleteObjects: 0.025800 ms)
+Total: 2.860700 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.500700 ms  DeleteObjects: 0.024000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -167,31 +167,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/MainScreen.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScreen.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307870b5f872a31f98735c7380fd4242') in 0.008387 seconds 
+  path: Assets/Icons
+  artifactKey: Guid(c8d49c0b0273eb142b81e5a4f7fcc1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons using Guid(c8d49c0b0273eb142b81e5a4f7fcc1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea15cb418b4a5ef6a8bd5f03fbbc4d62') in 0.009834 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.254997 seconds.
-  path: Assets/Scenes/SplashScreen.unity
-  artifactKey: Guid(c68e7cb53df035b498e1a51385b46cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SplashScreen.unity using Guid(c68e7cb53df035b498e1a51385b46cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20338173ed4adf2bb83e37ffa13e08a') in 0.003302 seconds 
+  Time since last request: 29.763783 seconds.
+  path: Assets/Icons/PikPng.com_loading-circle-png_4688179.png
+  artifactKey: Guid(356961a00b50f1744a4eff12efe04f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/PikPng.com_loading-circle-png_4688179.png using Guid(356961a00b50f1744a4eff12efe04f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465983bef8c1a9d95a5f99705ce97f2') in 0.133508 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.917677 seconds.
-  path: Assets/Scripts/SwitchToMainScene.cs
-  artifactKey: Guid(99812f8a1ad59584f9022fe6da96b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SwitchToMainScene.cs using Guid(99812f8a1ad59584f9022fe6da96b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00910e2717fd8047aa42e8d271ff7ca') in 0.018962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.039260 seconds.
-  path: Assets/Scripts/SwitchToMainScene.cs
-  artifactKey: Guid(99812f8a1ad59584f9022fe6da96b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SwitchToMainScene.cs using Guid(99812f8a1ad59584f9022fe6da96b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8755afd5d4501e569c57f1dd2f4f5eca') in 0.002570 seconds 
+  Time since last request: 9.779701 seconds.
+  path: Assets/Icons/loading_icon.png
+  artifactKey: Guid(356961a00b50f1744a4eff12efe04f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/loading_icon.png using Guid(356961a00b50f1744a4eff12efe04f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59b428f1ca42126c34ff68c3460d131') in 0.018842 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006470 seconds.
+Registered in 0.011105 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
@@ -240,46 +234,46 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  1.069 seconds
 Domain Reload Profiling:
-	ReloadAssembly (956ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (787ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (904ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (287ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (1ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.3 MB.
-System memory in use after: 120.5 MB.
+System memory in use before: 123.3 MB.
+System memory in use after: 123.5 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2812.
-Total: 2.885300 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.128600 ms MarkObjects: 2.525500 ms  DeleteObjects: 0.022800 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2818.
+Total: 3.438800 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.120300 ms MarkObjects: 3.048500 ms  DeleteObjects: 0.025500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -293,9 +287,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 119.461700 seconds.
+  path: Assets/Scenes/MainScreen.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScreen.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307870b5f872a31f98735c7380fd4242') in 0.045066 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006559 seconds.
+Registered in 0.006529 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
@@ -344,46 +344,46 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
+- Completed reload, in  1.012 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1074ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (893ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (300ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (1ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.4 MB.
-System memory in use after: 120.6 MB.
+System memory in use before: 123.3 MB.
+System memory in use after: 123.5 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2815.
-Total: 4.447200 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.118600 ms MarkObjects: 4.074900 ms  DeleteObjects: 0.028400 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2821.
+Total: 2.873200 ms (FindLiveObjects: 0.202200 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.537100 ms  DeleteObjects: 0.024500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -399,7 +399,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006647 seconds.
+Registered in 0.005266 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
@@ -448,46 +448,156 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
+- Completed reload, in  1.097 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1097ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (306ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (367ms)
 				LogAssemblyErrors (1ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.4 MB.
-System memory in use after: 120.6 MB.
+System memory in use before: 123.3 MB.
+System memory in use after: 123.5 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2818.
-Total: 3.154700 ms (FindLiveObjects: 0.216200 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.779000 ms  DeleteObjects: 0.030200 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2824.
+Total: 2.886200 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.124600 ms MarkObjects: 2.518200 ms  DeleteObjects: 0.022800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.783003 seconds.
+  path: Assets/Scenes/SplashScreen.unity
+  artifactKey: Guid(c68e7cb53df035b498e1a51385b46cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SplashScreen.unity using Guid(c68e7cb53df035b498e1a51385b46cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0055dc573e1d733b46da39bd3ce2e7') in 0.008799 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005253 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2827.
+Total: 2.549700 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.230100 ms  DeleteObjects: 0.022200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -503,7 +613,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005666 seconds.
+Registered in 0.006692 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
@@ -555,28 +665,28 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  0.998 seconds
 Domain Reload Profiling:
-	ReloadAssembly (982ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (778ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (306ms)
 				LogAssemblyErrors (1ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (181ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (191ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -584,14 +694,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.4 MB.
-System memory in use after: 120.6 MB.
+System memory in use before: 123.3 MB.
+System memory in use after: 123.5 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2821.
-Total: 3.434900 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.104000 ms MarkObjects: 3.112500 ms  DeleteObjects: 0.024500 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2830.
+Total: 3.212300 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.880500 ms  DeleteObjects: 0.026700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -607,7 +717,215 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005328 seconds.
+Registered in 0.010310 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1045ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (878ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 2.982200 ms (FindLiveObjects: 0.192000 ms CreateObjectMapping: 0.103700 ms MarkObjects: 2.661800 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005340 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2836.
+Total: 2.837400 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.105100 ms MarkObjects: 2.513200 ms  DeleteObjects: 0.022100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005298 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
@@ -659,43 +977,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  1.059 seconds
 Domain Reload Profiling:
-	ReloadAssembly (982ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (825ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (1ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.3 MB.
-System memory in use after: 120.5 MB.
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2824.
-Total: 2.968900 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.099500 ms MarkObjects: 2.653100 ms  DeleteObjects: 0.020500 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2839.
+Total: 2.629200 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.305000 ms  DeleteObjects: 0.020700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -711,7 +1029,631 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005549 seconds.
+Registered in 0.005513 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2842.
+Total: 3.125500 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.109300 ms MarkObjects: 2.794500 ms  DeleteObjects: 0.022900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005266 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2845.
+Total: 2.999500 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.692100 ms  DeleteObjects: 0.021800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005315 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2848.
+Total: 2.965600 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.098100 ms MarkObjects: 2.653500 ms  DeleteObjects: 0.021500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005311 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2851.
+Total: 2.781400 ms (FindLiveObjects: 0.192400 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.465500 ms  DeleteObjects: 0.023700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006066 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.7 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2854.
+Total: 3.173800 ms (FindLiveObjects: 0.247500 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.769800 ms  DeleteObjects: 0.029400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005455 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1161ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.7 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2857.
+Total: 2.558400 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.104000 ms MarkObjects: 2.242200 ms  DeleteObjects: 0.020900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005583 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
@@ -763,28 +1705,132 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
+- Completed reload, in  1.036 seconds
 Domain Reload Profiling:
-	ReloadAssembly (946ms)
+	ReloadAssembly (1036ms)
 		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (788ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
+			SetupTypeCache (285ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (289ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (1ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (182ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2860.
+Total: 2.922300 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.100500 ms MarkObjects: 2.598800 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005564 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c23f5ab (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff64c2665b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff64c25cae3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
+0x00007ff64c34e54c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff64c355b49 (Unity) StackWalker::ShowCallstack
+0x00007ff64d0e629c (Unity) GetStacktrace
+0x00007ff64db431d7 (Unity) DebugStringToFile
+0x00007ff64c265d45 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff64c25ce71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff64c263fd7 (Unity) MonoManager::ReloadAssembly
+0x00007ff64cf8f7b1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff64cf8fe19 (Unity) LoadUserAssemblies
+0x00007ff64d1ce6a8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007ff64d257732 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff64d259890 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff64d25d00e (Unity) asio::io_service::run
+0x00007ff64d1f836b (Unity) RunAssetImportWorkerClientV2
+0x00007ff64d1f83c0 (Unity) RunAssetImporterV2
+0x00007ff64cc71539 (Unity) Application::InitializeProject
+0x00007ff64d0f0622 (Unity) WinMain
+0x00007ff64e78df4e (Unity) __scrt_common_main_seh
+0x00007ffb930254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffb941a485b (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1129ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (194ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -792,14 +1838,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.98 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.4 MB.
-System memory in use after: 120.6 MB.
+System memory in use before: 123.5 MB.
+System memory in use after: 123.7 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2827.
-Total: 2.923300 ms (FindLiveObjects: 0.192000 ms CreateObjectMapping: 0.098400 ms MarkObjects: 2.610900 ms  DeleteObjects: 0.021400 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2863.
+Total: 2.783400 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.095100 ms MarkObjects: 2.479800 ms  DeleteObjects: 0.020800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

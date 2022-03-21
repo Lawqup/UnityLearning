@@ -449,7 +449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 13d92f94057e5bf45b487e969dd1ba23, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a0701d5dd6331a047af8c364778de479, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1999,7 +1999,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 273ca367685535247aeae4999fc071d1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 356961a00b50f1744a4eff12efe04f6a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2300,7 +2300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 1759175226}
   timeStep: 0.05
-  angleStep: 18
+  angleStep: -18
   duration: 1
 --- !u!1 &1985730632
 GameObject:

@@ -10,10 +10,17 @@ public class SwitchToMainScene : MonoBehaviour
         StartCoroutine(SleepThenSwitch());
     }
 
-    private static IEnumerator SleepThenSwitch()
+    IEnumerator SleepThenSwitch()
     {
-        yield return new WaitForSeconds(4);
-        SceneManager.LoadScene(0);
+        yield return new WaitForSeconds(2);
+        
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("MainScreen");
+
+        // Wait until the asynchronous scene fully loads
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
     
 }
